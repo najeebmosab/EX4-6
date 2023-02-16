@@ -1,0 +1,21 @@
+.containerCards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.card{
+    background-color: #fff;
+    border: 1px solid #dcdcdd;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+.card .links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
