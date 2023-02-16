@@ -3,7 +3,7 @@ function ShowData(props) {
     const data = props.data;
     function show() {
         return (
-            data.map(el => {
+            data.map((el,idx) => {
                 return (
                     <>
                         <div className="card">

@@ -5,6 +5,7 @@ import { Quiz } from "./EX4/EX4.2"
 import {ButtonComponents} from "./Buttons/ButtonComponents"
 import {data} from "./DataCards/Data";
 import {ShowData} from "./DataCards/ShowData";
+import {MotherComponents} from "./EX5.2/MotherComponents";
 function App() {
   const [CardData, setCardData] = useState(data)
   
@@ -14,6 +15,8 @@ function App() {
       < ButtonComponents text={"important"} bold={"bold"}/>
       < ButtonComponents text={"No't important"} blod={""}/>
       <ShowData data={CardData}/>
+
+      <MotherComponents/>
     </>
   )
 }
